@@ -1,0 +1,27 @@
+{
+  "name": "fp-ts-crud",
+  "version": "1.0.0",
+  "description": "A product CRUD REST API using the functional approach in typescript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "prisma": "^6.1.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "express": "^4.21.2",
+    "fp-ts": "^2.16.9",
+    "io-ts": "^2.2.22",
+    "io-ts-types": "^0.5.19",
+    "status-code-enum": "^1.0.0"
+  }
+}
